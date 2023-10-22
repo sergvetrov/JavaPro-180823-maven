@@ -7,9 +7,9 @@ public class JewelFinder {
         char[] stonesSingly = stones.toCharArray();
         int counter = 0;
 
-        for (char j : jewelsSingly) {
-            for (char s : stonesSingly) {
-                if (j == s) {
+        for (char jewel : jewelsSingly) {
+            for (char stone : stonesSingly) {
+                if (jewel == stone) {
                     counter++;
                 }
             }
