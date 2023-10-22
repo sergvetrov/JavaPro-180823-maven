@@ -2,6 +2,9 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
+
+    }
+    public static void doHW11(String[] args){
         if (args.length == 3) {
             try {
                 int x = Integer.parseInt(args[0]);
